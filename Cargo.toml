@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+exclude = [
+    "toml-test"
+]
+members = [
+    "just-a-toml-parser",
+]

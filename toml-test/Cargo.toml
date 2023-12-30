@@ -1,0 +1,11 @@
+[package]
+publish = false
+
+name = "toml-test"
+version = "0.0.0"
+edition = "2021"
+
+[dev-dependencies]
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.107"
+just-a-toml-parser.path = "../just-a-toml-parser"
